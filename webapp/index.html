@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prisha's App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 style="color: white; text-align: center; margin-bottom: 20px; font-family: sans-serif;">Prisha's App</h1>
+
+    <!-- iPhone Mockup Frame -->
+    <div class="iphone-mockup">
+        <div class="dynamic-island"></div>
+
+        <div class="app-container">
+            <!-- Screen 1: Home -->
+            <div id="screen1" class="app-screen active-screen">
+                <table class="table-arr">
+                    <tr>
+                        <td><img src="assets/Goal_14.png" style="height: 168px; width: 195px;"></td>
+                        <td><img src="assets/logo.png"
+                                style="height: 84px; width: 195px; background: white; padding: 5px;"></td>
+                    </tr>
+                </table>
+                <div class="label" style="font-weight: bold; font-style: italic; font-size: 25px;"> UN Goal 14- Life
+                    Below Water</div>
+                <button id="btn-about">About life below water</button>
+                <table class="table-arr">
+                    <tr>
+                        <td><img src="assets/14.jpg" style="height: 168px; width: 195px; object-fit: cover;"></td>
+                        <td><img src="assets/WATER.avif" style="height: 253px; width: 195px; object-fit: cover;"></td>
+                    </tr>
+                    <tr>
+                        <td><img src="assets/turtle.jpg" style="height: 168px; object-fit: contain;"></td>
+                        <td style="vertical-align: top;"><button id="btn-targets" style="margin-top: 10px;">Key
+                                Targets</button></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td style="vertical-align: top;"><button id="btn-next" style="margin-top: 10px;">Next</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Screen 2: Causes and Help -->
+            <div id="screen2" class="app-screen hidden-screen">
+                <table class="table-arr">
+                    <tr>
+                        <td><img src="assets/Goal_14.png" style="height: 168px; width: 195px;"></td>
+                        <td><img src="assets/logo.png"
+                                style="height: 84px; width: 195px; background: white; padding: 5px;"></td>
+                    </tr>
+                </table>
+                <div class="label" style="font-weight: bold; font-style: italic; font-size: 25px;">Causes and How to
+                    help-</div>
+                <table class="table-arr">
+                    <tr>
+                        <td><img src="assets/ocean.jpg" style="height: 337px; width: 390px;"></td>
+                    </tr>
+                    <tr>
+                        <td><button id="btn-causes" style="width: 100%;">Causes of harm to life below water</button>
+                        </td>
+                    </tr>
+                </table>
+                <table class="table-arr" style="width: 100%; margin-top: 10px;">
+                    <tr>
+                        <td colspan="4"><button id="btn-help">What to do to help?</button></td>
+                    </tr>
+                    <tr>
+                        <td style="padding-top: 20px;">
+                            <div class="label" style="font-weight: bold; font-style: italic;">App created by- Prisha
+                            </div>
+                        </td>
+                        <td style="padding-top: 20px; text-align: right;"><button id="btn-back">Back</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
